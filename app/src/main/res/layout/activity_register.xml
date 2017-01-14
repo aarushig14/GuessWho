@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.agupta1409.gangup.Register"
+    android:background="@color/LoginPage"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register Your Group"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/grid_register"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/tv_register"
+        />
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/grid_register"
+        android:rowCount="2"
+        android:columnCount="2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_enter_grp_nm"
+            android:text="Enter Group Name"
+            android:textColor="#000000"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:maxLines="1"
+            android:ems="40"
+            android:id="@+id/et_group_name"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Group Key"
+            android:textColor="#000000"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/tv_group_key"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:ems="40"
+            android:id="@+id/et_group_key"/>
+
+    </GridLayout>
+
+    <Button
+        android:onClick="gotoMainAgain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Group"
+        android:layout_below="@+id/grid_register"
+        android:layout_centerHorizontal="true"
+        android:background="@color/LoginPage"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+</RelativeLayout>

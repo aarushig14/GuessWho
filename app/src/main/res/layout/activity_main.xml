@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.agupta1409.gangup.MainActivity">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/gangUpImage"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:src="@drawable/gangup" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="LOGIN"
+                android:layout_marginTop="20dp"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <EditText
+                android:id="@+id/groupID"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:maxLines="1"
+                android:maxEms="50"
+                android:layout_marginTop="20dp"
+                android:background="#FFFFFF"
+                android:hint="Enter Group ID"
+                />
+
+
+            <EditText
+                android:id="@+id/groupKey"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:background="#FFFFFF"
+                android:maxLines="1"
+                android:minEms="8"
+                android:maxEms="15"
+                android:inputType="textPassword"
+                android:hint="Enter Group Key"
+                android:layout_marginTop="5dp"
+               />
+
+            TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="@string/login_not_available" />
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp">
+
+                <Button
+                    android:id="@+id/submit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@color/LoginPage"
+                    android:onClick="gotoMain"
+                    android:text="Submit"
+                    android:textColor="@color/buttonText" />
+
+                <Button
+                    android:onClick="resetData"
+                    android:id="@+id/reset"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@color/LoginPage"
+                    android:text="Reset"
+                    android:textColor="@color/buttonText" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:onClick="gotoRegister"
+                android:layout_marginTop="20dp"
+                android:text="New User? Register Here" />
+
+
+        </LinearLayout>
+        </ScrollView>
+
+
+
+</RelativeLayout>

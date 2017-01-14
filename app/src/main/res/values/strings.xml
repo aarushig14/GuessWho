@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">GangUp</string>
+    <string name="title_activity_register">Register</string>
+    <string name="login_not_available">Click on submit to proceed.App under construction, Login feature not available.
+                However you can register your group with us.</string>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/LoginPage"
+    tools:context="com.example.agupta1409.gangup.Main2Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="GroupName"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:id="@+id/tv_group_name"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tv_group_name">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <ImageButton
+                android:id="@+id/knowYourFriends"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:onClick="gotoKnowYourFriends"
+                android:padding="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/knowurfrnds" />
+
+            <ImageButton
+                android:id="@+id/events"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:onClick="gotoEvents"
+                android:padding="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/events" />
+
+            <ImageButton
+                android:id="@+id/moments"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:onClick="gotoMoments"
+                android:padding="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/moments" />
+
+            <ImageButton
+                android:id="@+id/tellYourFriends"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:onClick="gotoEvents"
+                android:padding="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/tellyourfrnds" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
