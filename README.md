@@ -3,4 +3,4 @@ This app allows the user to store different birthday wishes along with the pictu
 
  <img src = "https://github.com/aarushig14/GuessWho/blob/master/guessWhoScreenshot/unnamed%20(13).png" width = "250px" height = " 400px"><img src = "https://github.com/aarushig14/GuessWho/blob/master/guessWhoScreenshot/unnamed%20(14).png" width = "250px" height = " 400px"><img src = "https://github.com/aarushig14/GuessWho/blob/master/guessWhoScreenshot/unnamed%20(15).png" width = "250px" height = " 400px">
  <br><br>
- <img src = "https://github.com/aarushig14/GuessWho/blob/master/guessWhoScreenshot/unnamed%20(16).png" width = "250px" height = " 400px">
+ <img src = "https://github.com/aarushig14/GuessWho/blob/master/guessWhoScreenshot/unnamed%20(16).png" width = "250px" height = " 400px"><img src = "https://github.com/aarushig14/GuessWho/blob/master/guessWhoScreenshot/unnamed%20(17).png" width = "250px" height = " 400px">
